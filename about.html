@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="x-icon" href="assets/favicon/star.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - My Awesome Website</title>
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="js/about.js" defer></script>
+    <script src="js/animations.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <a href="index.html">Course IT Website</a>
+        </div>
+        <!-- Hamburger Icon for Mobile View -->
+        <button class="navbar-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="navbar-menu">
+          <li class="menu-item dropdown">
+            <a href="index.html" class="menu-link">Home</a>
+            <ul class="dropdown-menu">
+              <li><a href="index.html" class="dropdown-link">Activities</a></li>
+              <li><a href="index.html" class="dropdown-link">Programs</a></li>
+              <li><a href="index.html" class="dropdown-link">Reach Us</a></li>
+            </ul>
+          </li>
+          <li class="menu-item dropdown">
+            <a href="about.html" class="menu-link">About</a>
+            <ul class="dropdown-menu">
+              <li><a href="about.html" class="dropdown-link">Our Story</a></li>
+              <li><a href="about.html" class="dropdown-link">Team</a></li>
+              <li><a href="about.html" class="dropdown-link">Mission</a></li>
+            </ul>
+          </li>
+          <li class="menu-item dropdown">
+            <a href="services.html" class="menu-link">Services</a>
+            <ul class="dropdown-menu mega-menu">
+              <li>
+                <div class="mega-menu-content">
+                  <div class="mega-menu-column">
+                    <h3>Web Development</h3>
+                    <a href="services.html">Web Design</a>
+                    <a href="services.html">Web Development</a>
+                    <a href="services.html">E-commerce</a>
+                  </div>
+                  <div class="mega-menu-column">
+                    <h3>Digital Marketing</h3>
+                    <a href="services.html">SEO</a>
+                    <a href="services.html">Social Media Marketing</a>
+                    <a href="services.html">PPC Advertising</a>
+                  </div>
+                  <div class="mega-menu-column">
+                    <h3>Graphic Design</h3>
+                    <a href="services.html">Branding</a>
+                    <a href="services.html">Logo Design</a>
+                    <a href="services.html">Infographics</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item dropdown">
+            <a href="contact.html" class="menu-link">Contact</a>
+            <ul class="dropdown-menu">
+              <li><a href="contact.html" class="dropdown-link">Contact Form</a></li>
+              <li><a href="contact.html" class="dropdown-link">FAQ</a></li>
+              <li><a href="contact.html" class="dropdown-link">Support</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="navbar-search">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about-hero" class="parallax">
+      <div class="hero-content">
+        <h1 class="hero-title zoom-in">About Us</h1>
+        <p class="hero-subtitle fade-in">Learn more about our journey.</p>
+        <a href="#our-story" class="cta-button slide-in-right">Our Story</a>
+      </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section id="carousel" class="my-carousel">
+      <h2 class="carousel-title">Explore Our Work</h2>
+      <div class="carousel-wrapper">
+        <div class="carousel-item visible">
+          <img src="assets/images/carousel.jpg" alt="Slide 1">
+          <div class="carousel-text">
+            <h3>Innovative Design</h3>
+            <p>Creating modern, sleek designs.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/carousel1.jpg" alt="Slide 2">
+          <div class="carousel-text">
+            <h3>Cutting-edge Technology</h3>
+            <p>Leveraging the latest advancements.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/carousel2.jpg" alt="Slide 3">
+          <div class="carousel-text">
+            <h3>Seamless Experience</h3>
+            <p>Ensuring smooth user journeys.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/carousel3.jpg" alt="Slide 4">
+          <div class="carousel-text">
+            <h3>Training Classes</h3>
+            <p>Become Professional.</p>
+          </div>
+        </div>
+        <a class="carousel-prev">&#10094;</a>
+        <a class="carousel-next">&#10095;</a>
+      </div>
+    </section>
+    
+    
+
+    <!-- Our Story Section -->
+    <section id="our-story" class="section-padding">
+      <div class="container">
+        <h2 class="section-title slide-in-left">Our Story</h2>
+        <p class="story-content slide-in-right">
+          Our company started with a vision to redefine the way people experience
+          the web. With a passionate team and a relentless drive for innovation,
+          we have grown from a small startup into a leading provider of
+          cutting-edge web solutions.
+        </p>
+      </div>
+    </section>
+    
+
+    <!-- Our Team Section -->
+    <section id="team" class="section-padding">
+      <h2 class="section-title fade-in">Meet Our Team</h2>
+      <div class="team-container">
+        <div class="team-member slide-in-left">
+          <img src="https://images.unsplash.com/photo-1585076800246-4562eb6d6f42?q=80&w=1526&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Team Member 1" />
+          <h3>John Doe</h3>
+          <p>CEO & Founder</p>
+        </div>
+        <div class="team-member bounce-in">
+          <img src="https://bulletin.hds.harvard.edu/files/2020/07/031612_JaneSmithRetirement_481.jpg" alt="Team Member 2" />
+          <h3>Jane Smith</h3>
+          <p>Chief Technology Officer</p>
+        </div>
+        <div class="team-member slide-in-right">
+          <img src="https://cdn.britannica.com/41/218341-050-51D8903F/American-actor-John-Krasinski-2020.jpg" alt="Team Member 3" />
+          <h3>Mark Johnson</h3>
+          <p>Lead Developer</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Values Section -->
+    <section id="values" class="section-padding">
+      <h2 class="section-title rotate-in">Our Values</h2>
+      <div class="values-container">
+        <div class="value-item slide-in-left">
+          <i class="fas fa-heart"></i>
+          <h3>Passion</h3>
+          <p>We love what we do, and it shows in our work.</p>
+        </div>
+        <div class="value-item slide-in-right">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Innovation</h3>
+          <p>We constantly push the boundaries of what's possible.</p>
+        </div>
+        <div class="value-item zoom-in">
+          <i class="fas fa-users"></i>
+          <h3>Collaboration</h3>
+          <p>We believe in the power of teamwork and partnerships.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>About Us</h3>
+          <p>
+            We are a leading company providing top-notch services to our
+            clients. Our mission is to deliver exceptional experiences through
+            innovation and dedication.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h3>Newsletter</h3>
+          <p>
+            Subscribe to our newsletter to receive the latest updates and
+            offers.
+          </p>
+          <form>
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 My Awesome Website. All rights reserved.</p>
+      </div>
+    </footer>
+
+    
+  </body>
+</html>

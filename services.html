@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="x-icon" href="assets/favicon/star.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Services - My Awesome Website</title>
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="js/services.js" defer></script>
+    <script src="js/animations.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <a href="index.html">Course IT Website</a>
+        </div>
+        <!-- Hamburger Icon for Mobile View -->
+        <button class="navbar-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="navbar-menu">
+          <li class="menu-item dropdown">
+            <a href="index.html" class="menu-link">Home</a>
+            <ul class="dropdown-menu">
+              <li><a href="index.html" class="dropdown-link">Activities</a></li>
+              <li><a href="index.html" class="dropdown-link">Programs</a></li>
+              <li><a href="index.html" class="dropdown-link">Reach Us</a></li>
+            </ul>
+          </li>
+          <li class="menu-item dropdown">
+            <a href="about.html" class="menu-link">About</a>
+            <ul class="dropdown-menu">
+              <li><a href="about.html" class="dropdown-link">Our Story</a></li>
+              <li><a href="about.html" class="dropdown-link">Team</a></li>
+              <li><a href="about.html" class="dropdown-link">Mission</a></li>
+            </ul>
+          </li>
+          <li class="menu-item dropdown">
+            <a href="services.html" class="menu-link">Services</a>
+            <ul class="dropdown-menu mega-menu">
+              <li>
+                <div class="mega-menu-content">
+                  <div class="mega-menu-column">
+                    <h3>Web Development</h3>
+                    <a href="services.html">Web Design</a>
+                    <a href="services.html">Web Development</a>
+                    <a href="services.html">E-commerce</a>
+                  </div>
+                  <div class="mega-menu-column">
+                    <h3>Digital Marketing</h3>
+                    <a href="services.html">SEO</a>
+                    <a href="services.html">Social Media Marketing</a>
+                    <a href="services.html">PPC Advertising</a>
+                  </div>
+                  <div class="mega-menu-column">
+                    <h3>Graphic Design</h3>
+                    <a href="services.html">Branding</a>
+                    <a href="services.html">Logo Design</a>
+                    <a href="services.html">Infographics</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item dropdown">
+            <a href="contact.html" class="menu-link">Contact</a>
+            <ul class="dropdown-menu">
+              <li><a href="contact.html" class="dropdown-link">Contact Form</a></li>
+              <li><a href="contact.html" class="dropdown-link">FAQ</a></li>
+              <li><a href="contact.html" class="dropdown-link">Support</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="navbar-search">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="services-hero" class="parallax">
+      <div class="hero-content">
+        <h1 class="hero-title slide-in-left">Our Services</h1>
+        <p class="hero-subtitle slide-in-right">Explore what we offer.</p>
+        <a href="#service-list" class="cta-button zoom-in">See Services</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="service-list" class="section-padding">
+      <h2 class="section-title fade-in">Our Services</h2>
+      <div class="service-card-container">
+        <div class="service-card rotate-in">
+          <i class="fas fa-globe"></i>
+          <h3>Global Reach</h3>
+          <p>Expanding your business horizons worldwide.</p>
+        </div>
+        <div class="service-card slide-in-left">
+          <i class="fas fa-chart-line"></i>
+          <h3>Growth Strategies</h3>
+          <p>Driving success through innovative approaches.</p>
+        </div>
+        <div class="service-card bounce-in">
+          <i class="fas fa-handshake"></i>
+          <h3>Client Relations</h3>
+          <p>Building lasting partnerships with our clients.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services List Section -->
+    <section class="section-padding">
+      <h2 class="section-title fade-in">What We Offer</h2>
+      <div class="service-card-container">
+        <div class="service-card slide-in-left">
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <p>Creating responsive and dynamic websites.</p>
+        </div>
+        <div class="service-card bounce-in">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Mobile Development</h3>
+          <p>Building cutting-edge mobile applications.</p>
+        </div>
+        <div class="service-card slide-in-right">
+          <i class="fas fa-paint-brush"></i>
+          <h3>UI/UX Design</h3>
+          <p>Designing user-friendly and engaging interfaces.</p>
+        </div>
+        <div class="service-card rotate-in">
+          <i class="fas fa-cloud"></i>
+          <h3>Cloud Solutions</h3>
+          <p>Offering scalable cloud-based services.</p>
+        </div>
+        <div class="service-card zoom-in">
+          <i class="fas fa-chart-pie"></i>
+          <h3>Analytics</h3>
+          <p>Providing data-driven insights for your business.</p>
+        </div>
+        <div class="service-card slide-in-left">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Cybersecurity</h3>
+          <p>Ensuring the security of your digital assets.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding">
+      <h2 class="section-title fade-in">What Our Clients Say</h2>
+      <div class="testimonial-container">
+        <div class="testimonial-card slide-in-left">
+          <p>
+            "The team at My Awesome Website delivered beyond our expectations.
+            The website they built for us is fast, secure, and looks stunning."
+          </p>
+          <h4>– Sarah M., CEO of Tech Innovators</h4>
+        </div>
+        <div class="testimonial-card zoom-in">
+          <p>
+            "Their attention to detail and commitment to quality are unmatched.
+            I highly recommend their services for any digital project."
+          </p>
+          <h4>– James T., Founder of StartupX</h4>
+        </div>
+        <div class="testimonial-card slide-in-right">
+          <p>
+            "A fantastic experience from start to finish. The mobile app they
+            developed for us has been a game changer for our business."
+          </p>
+          <h4>– Emily R., Marketing Director at GoMobile</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="features-section">
+      <div class="card-container-wrapper">
+        <div class="card-container">
+          <div class="card" style="background-color: #2ecc71">
+            <h3>$9</h3>
+            <p>BASIC SUBSCRIPTION</p>
+            <button class="sign-up">SIGN UP</button>
+          </div>
+          <div class="card" style="background-color: #e74c3c">
+            <h3>$19</h3>
+            <p>STANDARD SUBSCRIPTION</p>
+            <button class="sign-up">SIGN UP</button>
+          </div>
+          <div class="card" style="background-color: #f1c40f">
+            <h3>$29</h3>
+            <p>PREMIUM SUBSCRIPTION</p>
+            <button class="sign-up">SIGN UP</button>
+          </div>
+          <div class="card" style="background-color: #3498db">
+            <h3>$39</h3>
+            <p>DELUXE SUBSCRIPTION</p>
+            <button class="sign-up">SIGN UP</button>
+          </div>
+          <div class="card" style="background-color: #9b59b6">
+            <h3>$49</h3>
+            <p>ULTIMATE SUBSCRIPTION</p>
+            <button class="sign-up">SIGN UP</button>
+          </div>
+        </div>
+      </div>
+      <div class="navigation-buttons">
+        <button class="nav-btn prev-btn" onclick="prevCard()">&#10094;</button>
+        <button class="nav-btn next-btn" onclick="nextCard()">&#10095;</button>
+      </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>About Us</h3>
+          <p>
+            We are a leading company providing top-notch services to our
+            clients. Our mission is to deliver exceptional experiences through
+            innovation and dedication.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h3>Newsletter</h3>
+          <p>
+            Subscribe to our newsletter to receive the latest updates and
+            offers.
+          </p>
+          <form>
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 My Awesome Website. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

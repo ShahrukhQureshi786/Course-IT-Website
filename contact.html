@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="x-icon" href="assets/favicon/star.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - My Awesome Website</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="js/contact.js" defer></script>
+    <script src="js/animations.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="navbar-logo">
+          <a href="index.html">Course IT Website</a>
+        </div>
+        <!-- Hamburger Icon for Mobile View -->
+        <button class="navbar-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="navbar-menu">
+          <li class="menu-item dropdown">
+            <a href="index.html" class="menu-link">Home</a>
+            <ul class="dropdown-menu">
+              <li><a href="index.html" class="dropdown-link">Activities</a></li>
+              <li><a href="index.html" class="dropdown-link">Programs</a></li>
+              <li><a href="index.html" class="dropdown-link">Reach Us</a></li>
+            </ul>
+          </li>
+          <li class="menu-item dropdown">
+            <a href="about.html" class="menu-link">About</a>
+            <ul class="dropdown-menu">
+              <li><a href="about.html" class="dropdown-link">Our Story</a></li>
+              <li><a href="about.html" class="dropdown-link">Team</a></li>
+              <li><a href="about.html" class="dropdown-link">Mission</a></li>
+            </ul>
+          </li>
+          <li class="menu-item dropdown">
+            <a href="services.html" class="menu-link">Services</a>
+            <ul class="dropdown-menu mega-menu">
+              <li>
+                <div class="mega-menu-content">
+                  <div class="mega-menu-column">
+                    <h3>Web Development</h3>
+                    <a href="services.html">Web Design</a>
+                    <a href="services.html">Web Development</a>
+                    <a href="services.html">E-commerce</a>
+                  </div>
+                  <div class="mega-menu-column">
+                    <h3>Digital Marketing</h3>
+                    <a href="services.html">SEO</a>
+                    <a href="services.html">Social Media Marketing</a>
+                    <a href="services.html">PPC Advertising</a>
+                  </div>
+                  <div class="mega-menu-column">
+                    <h3>Graphic Design</h3>
+                    <a href="services.html">Branding</a>
+                    <a href="services.html">Logo Design</a>
+                    <a href="services.html">Infographics</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item dropdown">
+            <a href="contact.html" class="menu-link">Contact</a>
+            <ul class="dropdown-menu">
+              <li><a href="contact.html" class="dropdown-link">Contact Form</a></li>
+              <li><a href="contact.html" class="dropdown-link">FAQ</a></li>
+              <li><a href="contact.html" class="dropdown-link">Support</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="navbar-search">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="contact-hero" class="parallax">
+      <div class="hero-content">
+        <h1 class="hero-title fade-in">Contact Us</h1>
+        <p class="hero-subtitle slide-in-right">
+          We would love to hear from you.
+        </p>
+        <a href="#contact-form" class="cta-button slide-in-left"
+          >Get in Touch</a
+        >
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="section-padding">
+      <h2 class="section-title fade-in">Send Us a Message</h2>
+      <form class="contact-form slide-in-right">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Google Map Section -->
+    <section id="map" class="section-padding">
+      <h2 class="section-title fade-in">Find Us Here</h2>
+      <div id="google-map" class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345084335!2d144.95373531531658!3d-37.8172099797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce6e0!2z5p2-5p6X5ZOB!5e0!3m2!1sja!2sjp!4v1426637825785"
+          width="100%"
+          height="450"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>
+                    We are a leading company providing top-notch services to our clients. Our mission is to deliver exceptional experiences through innovation and dedication.
+                </p>
+            </div>
+    
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter to receive the latest updates and offers.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 My Awesome Website. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    
+  </body>
+</html>

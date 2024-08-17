@@ -1,0 +1,97 @@
+/* Animation Styles */
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3) translateY(-1000px);
+    }
+    70% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes rotateIn {
+    from {
+        opacity: 0;
+        transform: rotate(-200deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(0);
+    }
+}
+
+/* Applying Animations */
+.bounce-in {
+    animation: bounceIn 1s ease;
+}
+
+.fade-in {
+    animation: fadeIn 1.5s ease;
+}
+
+.slide-in-left {
+    animation: slideInLeft 1s ease;
+}
+
+.slide-in-right {
+    animation: slideInRight 1s ease;
+}
+
+.zoom-in {
+    animation: zoomIn 1s ease;
+}
+
+.rotate-in {
+    animation: rotateIn 1s ease;
+}
+
+/* Hidden on load class (already added) */
+.hidden-on-load {
+    opacity: 0;
+}
